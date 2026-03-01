@@ -95,7 +95,7 @@
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/TrafficMonitor.git
+git clone https://github.com/YOUR_USERNAME/Computer-Vision-System-for-Traffic-MonitoringTrafficMonitor.git
 cd TrafficMonitor
 ```
 
@@ -191,7 +191,7 @@ pandas==2.1.0             # Data handling
 - [x] Vehicle counting (IN/OUT)
 - [x] Live Streamlit dashboard
 - [x] Webcam support
-- [ ] Speed estimation (km/h)
+- [x] Speed estimation (km/h)
 - [ ] Lane-specific counting
 - [ ] Emergency vehicle alerts (ambulance priority)
 - [ ] Traffic density heatmaps
