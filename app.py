@@ -581,11 +581,11 @@ with tab2:
         )
         fig_vehicles.update_layout(
             template='plotly_dark',
-            singlelinecolor='#00ff88',
             paper_bgcolor='rgba(16, 32, 64, 0.8)',
             plot_bgcolor='rgba(26, 42, 74, 0.8)',
             font=dict(color='#00ff88')
         )
+        fig_vehicles.update_traces(line=dict(color='#00ff88'))
         st.plotly_chart(fig_vehicles, use_container_width=True)
     
     with col2:
